@@ -1,0 +1,209 @@
+.shortcut .w{
+    padding: 0 7px;
+    box-sizing: border-box;
+    width: 1190px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+.shortcut .w .p div{
+    cursor: pointer;
+}
+.shortcut .w .p i{
+    color: #f10215;
+    font-size: 14px;
+}
+.shortcut a:hover{
+    color: #e33333;
+}
+.shortcut .nav-ul{
+    width: 720px;
+    justify-content: space-between;
+    display: flex;
+}
+.shortcut .nav-ul .icon-shuxian{
+    display: inline;
+    font-size: 14px;
+}
+.shortcut .nav-ul>li:nth-child(2){
+    color:#f10215;
+}
+.shortcut .nav-ul>li:nth-last-child(7){
+    color:#ff0000;
+}
+.shortcut .nav-ul>li:nth-child(9){
+    padding:0 7px;
+}
+.shortcut .nav-ul .icon-xiabiao{
+    font-size: 1px;
+}
+/* .shortcut .nav-ul li{
+    /* box-sizing: border-box; 
+} */
+.shortcut .nav-ul>li:nth-child(6),
+.shortcut .nav-ul>li:nth-last-child(7),
+.shortcut .nav-ul>li:nth-last-child(5),
+.shortcut .nav-ul>li:nth-last-child(3){
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-bottom: #fff;
+    margin-top: -1px;
+    position: relative;
+    z-index: 4;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+}
+.shortcut .nav-ul>li:nth-child(6):hover,
+.shortcut .nav-ul>li:nth-last-child(7):hover,
+.shortcut .nav-ul>li:nth-last-child(5):hover,
+.shortcut .nav-ul>li:nth-last-child(3):hover{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    z-index: 4;
+}
+.shortcut .nav-ul>li:nth-child(6):hover i::after,
+.shortcut .nav-ul>li:nth-last-child(7):hover i::after,
+.shortcut .nav-ul>li:nth-last-child(5):hover i::after,
+.shortcut .nav-ul>li:nth-last-child(3):hover i::after{
+    display: inline-block;
+}
+
+.shortcut .nav-ul>li:nth-child(6) i::after,
+.shortcut .nav-ul>li:nth-last-child(7) i::after,
+.shortcut .nav-ul>li:nth-last-child(5) i::after,
+.shortcut .nav-ul>li:nth-last-child(3) i::after{
+    content: '';
+    width: 61px;
+    position: absolute;
+    border: 1px solid #fff;
+    top: 29px;
+    display: none;
+    left: 0px;
+    z-index: 9;
+}
+.shortcut .nav-ul>li div{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: -1px;
+    display: none;
+}
+.shortcut .nav-ul>li:nth-child(6) div{
+    box-sizing: border-box;
+    width: 280px;
+    height: 160px;
+    padding: 10px 15px;
+    
+}
+.shortcut .nav-ul>li:nth-child(6):hover div,
+.shortcut .nav-ul>li:nth-last-child(7):hover div,
+.shortcut .nav-ul>li:nth-last-child(5):hover div,
+.shortcut .nav-ul>li:nth-last-child(3):hover div{
+    display: block;
+    z-index: -1;
+}
+.shortcut .nav-ul>li:nth-child(6) ul,
+.shortcut .nav-ul>li:nth-last-child(7) ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.shortcut .nav-ul>li:nth-child(6) ul li{
+    line-height: 24px;
+    color: #999;
+    width: 50%;
+}
+.shortcut .nav-ul>li:nth-child(6) ul hr{
+    border-top: none;
+    color: #f1f1f1;
+    padding: 0 139px;
+    left: -15px;
+    position: relative;
+}
+.shortcut .nav-ul>li:nth-last-child(7) div{
+    box-sizing: border-box;
+    width: 155px;
+    height: 95px;
+    padding: 10px 0 10px 15px;
+    color: #999;
+}
+.shortcut .nav-ul>li:nth-last-child(7):hover div{
+    display: block;
+}
+.shortcut .nav-ul>li:nth-last-child(7) div li{
+    width: 50%;
+    line-height: 24px;
+}
+.shortcut .nav-ul>li dl{
+    font-size: 14px;
+}
+.shortcut .nav-ul>li dt{
+    color: #666;
+    font-weight: bold;
+}
+.shortcut .nav-ul>li:nth-last-child(5),
+.shortcut .nav-ul>li:nth-last-child(3){
+    position: relative;
+}
+
+.shortcut .nav-ul>li:nth-last-child(5) div,
+.shortcut .nav-ul>li:nth-last-child(3) div{
+    position: absolute;
+    box-sizing: border-box;
+}
+.shortcut .nav-ul>li:nth-last-child(5):hover div{
+    padding: 10px 0 10px 15px;
+    left: -106px;
+    width:172px;
+    display: block;
+    
+}
+.shortcut .nav-ul>li:nth-last-child(5):hover hr{
+    width: 168px;
+    left: -15px;
+    position: relative;
+    border-top: none;
+}
+.shortcut .nav-ul>li:nth-last-child(5):hover div dd{
+    float: left;
+    width: 50%;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover div{
+    display: flex;
+    width: 1190px;
+    position: absolute;
+    left: -1050px;
+    padding: 15px 0;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover dl{
+    
+    margin-left: 20px;
+    flex-grow: 1;
+}
+.shortcut .nav-ul>li dl {
+    font-size: 12px;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover dl:first-child{
+    width: 340px;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover dl:not(:first-child){
+    width:255px;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover dl:not(:last-child){
+    border-right: 1px solid #eee;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover dl dt{
+    line-height: 24px;
+}
+.shortcut .nav-ul>li:nth-last-child(3):hover dl dd{
+    width: 85px;
+    line-height: 24px;
+    float: left;
+}
+

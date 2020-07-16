@@ -1,0 +1,46 @@
+@import 'reset.css';
+
+/*  公共样式 */
+
+.lt {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.clboth::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/*  */
+
+.shortcut {
+    height: 30px;
+    background-color: #e3e4e5;
+}
+
+.header {
+    height: 140px;
+}
+
+.fs {
+    height: 480px;
+    padding-bottom: 30px;
+    background-color: #f4f4f4;
+}
+
+.seckill {
+    height: 260px;
+    padding-bottom: 20px;
+    background-color: #f4f4f4;
+}

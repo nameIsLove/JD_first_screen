@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.my-changeBox div{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0,0,0,.15);
+    color: #fff;
+    top:calc(50% - 12px);
+    display: inline-block;
+    line-height: 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+.my-changeBox div:hover{
+    background-color: rgba(0,0,0,.4);
+}
+
+
+.my-changeBox div:nth-child(1){
+    left: 0;
+    border-top-right-radius:10px 10px;
+    border-bottom-right-radius:10px 10px;
+    padding-right: 6px;
+}
+
+.my-changeBox div:nth-child(2){
+    right: 0;
+    border-top-left-radius:10px 10px;
+    border-bottom-left-radius:10px 10px;
+    padding-left: 6px;
+}
+.my-dotBox{
+    position: absolute;
+    left: calc(50% - 20px);
+    bottom: 5%;
+}
+.my-dotBox span{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+.my-dotBox span.active{
+    background-color: #f00;
+}
+.demo .my-dotBox{
+    left: calc(50% - 50px);
+}
+
+
+

@@ -1,0 +1,203 @@
+.seckill .w {
+    box-sizing: border-box;
+    width: 1190px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+
+    padding-bottom: 1000px;
+}
+.seckill .seckill-countdown{
+    position: relative;
+    flex: 0 0 190px;
+    height: 260px;
+}
+.seckill .seckill-countdown a{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+    text-align: center;
+    color: #fff;
+    
+}
+.seckill .seckill-countdown h4{
+    height: 45px;
+    line-height: 45px;
+    margin: 30px auto 0;
+    font-size: 31px;
+    left: 0;
+    right: 0;
+}
+.seckill .seckill-countdown p{
+    
+    margin-top: 90px;
+    font-size: 14px;
+    
+}
+.seckill .seckill-countdown p strong{
+    vertical-align: bottom;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.seckill .seckill-countdown p span{
+    margin-left: 4px;
+}
+.seckill .seckill-countdown div{
+    font-size: 0;
+}
+.seckill .seckill-countdown div time{
+    font-weight: bold;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #000;
+}
+.seckill .seckill-countdown div span{
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+.seckill .seckill-list{
+    flex:1 1 auto;
+    height: 260px;
+    background-color: #fff;
+}
+.seckill .seckill-list>div{
+    text-align: center;
+}
+.seckill .seckill-list a{
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-top: 22px;
+}
+.seckill .seckill-list a::after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 1px;
+    top: 10px;
+    height: 200px;
+    background: linear-gradient(180deg,white, rgba(230,230,230, .6) 20px, rgba(230,230,230, .6) 170px, white);
+}
+
+
+.seckill .seckill-list a:hover>p{
+    color: #c81623;
+} 
+.seckill .seckill-list a>p{
+    margin: 13px 20px 0;
+    width: 160px;
+    height: 18px;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+
+.seckill .seckill-list a div{
+    border: 2px solid #e1251b;
+    margin: 7px 20px 0;
+    width: 160px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.seckill .seckill-list a div p:nth-child(1){
+    text-align: center;
+    line-height: 24px;
+    width: 90px;
+    height: 24px;
+    box-sizing: border-box;
+    background: linear-gradient(115deg, #e1251b 80px, white 10px);
+    background-color:#e1251b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;;
+    float: left;
+    
+}
+.seckill .seckill-list a div p:nth-child(2){
+    text-decoration: line-through;
+    width: 70px;
+    text-align: center;
+    float: right;
+    line-height: 27px;
+}
+
+.seckill .seckill-list a p i{
+    font-size: 12px;
+}
+
+
+.seckill .seckill-brand{
+    flex: 0 0 auto;
+    border: 10px solid #fff;
+    height: 260px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg,white 170px,rgba(220,224,236,.7) 260px)
+}
+
+.seckill .seckill-brand a {
+    text-align: center;
+    display: block;
+    margin-left: -25px;
+}
+.seckill .seckill-brand p{
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px;
+}
+.seckill .seckill-brand p:nth-child(2){
+    color: #666;
+}
+.seckill .seckill-brand p:nth-child(3){
+    font-weight: bold;
+    color: #333;
+}
+.seckill .seckill-brand a:nth-child(2){
+    height: 24px;
+}
+.seckill .seckill-brand a span{
+    display: inline-block;
+    color: #e1251b;
+    border: 1px solid #e1251b;
+    height: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    width: 82px;
+    border-radius: 14px;
+}
+
+.seckill .seckill-brand .my-dotBox{
+    position: absolute;
+    bottom: -7px;
+}
+.seckill .seckill-brand .my-dotBox span{
+    width: 4px;
+    height: 4px;
+    margin: 0 4px;
+  
+}
+
+
+
+
+

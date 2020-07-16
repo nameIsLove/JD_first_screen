@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轮播图</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .item:nth-child(1) {
+            background-image: url(1.jpg);
+            background-size: cover;
+        }
+        
+        .item:nth-child(2) {
+            background-image: url(2.jpg);
+            background-size: cover;
+        }
+        
+        .item:nth-child(3) {
+            background-image: url(3.jpg);
+            background-size: cover;
+        }
+        
+        .item:nth-child(4) {
+            background-image: url(4.jpg);
+            background-size: cover;
+        }
+        
+        .item:nth-child(5) {
+            background-image: url(5.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="demo">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        $('.wrapper').slideshow({
+            list: 'div',
+            width: 400,
+            height: 400,
+            type: 'fade',
+            showChangeBtn: true,
+            autoTime: 2000,
+            dotBtn: true,
+            isAuto: true
+        })
+        $('.demo').slideshow({
+            list: '.item',
+            width: 200,
+            height: 200,
+            type: 'animate',
+            showChangeBtn: true,
+            autoTime: 3000,
+            dotBtn: true,
+            isAuto: false,
+        })
+    </script>
+
+</body>
+
+</html>

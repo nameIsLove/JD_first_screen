@@ -1,0 +1,25 @@
+.fs .w{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.fs .w .fs-slideshow{
+    flex: 0 0 790px;
+    background-color: #fff;
+}
+.fs .w>div:not(.fs-slideshow){
+    flex: 0 0 190px;
+    font-size: 14px;
+    background-color: #fff;
+}
+.fs .w .fs-nav>ul{
+    padding: 10px 0 0 0;
+}
+
+
+
+
